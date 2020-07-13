@@ -1,0 +1,6 @@
+id,country_id,local_id,code,name,slug,population
+"BR-CO","BR","5","CO","Centro-Oeste","co","16297074"
+"BR-N","BR","1","N","Norte","n","18430980"
+"BR-NE","BR","2","NE","Nordeste","ne","57071654"
+"BR-S","BR","4","S","Sul","s","29975984"
+"BR-SE","BR","3","SE","Sudeste","se","88371433"
