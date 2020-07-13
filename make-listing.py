@@ -19,8 +19,7 @@ INDEX_TEMPLATE = r"""
     <table>
         <tbody>
             <tr>
-                <th valign="top"><img src="${ROOTDIR}images/blank.gif"
-                    alt="[ICO]"></th>
+                <th valign="top"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAEUlEQVR42mNkIAAYRxWMJAUAE5gAEdz4t9QAAAAASUVORK5CYII=" alt="[ICO]"></th>
                 <th><a href="?C=N;O=D">Name</a></th>
                 <th><a href="?C=M;O=A">Last modified</a></th>
                 <th><a href="?C=S;O=A">Size</a></th>
@@ -68,7 +67,7 @@ INDEX_TEMPLATE = r"""
 </html>
 """
 
-EXCLUDED = ['index.html']
+EXCLUDED = ['index.html', '.git', '_config.yml', 'make-listing.py', 'params.json', '.DS_Store']
 
 import os
 import argparse
