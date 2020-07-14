@@ -1,0 +1,31 @@
+{
+  "name": "@pandemapa/static-data",
+  "version": "0.1.0",
+  "description": "Static resources (maps and other) for pandemapa.com.br",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandemapa/static-data.git"
+  },
+  "keywords": [
+    "covid",
+    "map",
+    "geojson",
+    "csv",
+    "brazil",
+    "ibge"
+  ],
+  "author": "Diego Hernandes <iamhernandev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandemapa/static-data/issues"
+  },
+  "homepage": "https://github.com/pandemapa/static-data#readme",
+  "devDependencies": {
+    "csv": "^5.3.2",
+    "lodash": "^4.17.19"
+  }
+}
